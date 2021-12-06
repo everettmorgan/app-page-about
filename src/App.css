@@ -1,0 +1,47 @@
+* {
+    font-family: Montserrat, sans-serif !important;
+}
+
+#container {
+    background-color: #fff !important;
+    color: #2f373a !important;
+}
+
+::v-deep(p) {
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+}
+
+::v-deep(p), ::v-deep(li) {
+    font-size: 18px !important;
+}
+
+.helpfulLink {
+    text-decoration: none !important;
+    color: #f66035;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.appAboutPanel {
+    border: solid 1px #dbe0e5 !important;
+    border-radius: 8px !important;
+    padding: 8px 25px !important;
+}
+
+.appAboutDesc {
+    line-height: 1.69 !important;
+}
+
+.appAboutPanelSub {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+}
+
+.supportedLangs {
+    font-weight: 300 !important;
+}
+
+.supportedCountries {
+    font-weight: 300 !important;
+}
